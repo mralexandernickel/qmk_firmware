@@ -55,11 +55,20 @@ enum unicode_names {
   SUN, // sun
   MOON, // moon
   SKULL, // skull
+  ANGRY, // angry 🤬
   THINK, // thinking face 🤔
   ROCK, // rocket 🚀
   TADA, // tada 🎉
   FNGCR, // crossed fingers 🤞
   FIRE, // fire 🔥
+  TOP, // top arrow 🔝
+  CHECK, // check mark button ✅
+  RAIS, // man raising hand 🙋‍♂️
+  SHRG, // man shrugging 🤷‍♂️
+  FPLM, // man facepalm 🤦‍♂️
+  THAT, // top hat 🎩
+  PEACH, // peach 🍑
+  EGGPL, // eggplant 🍆
 };
 
 const uint32_t PROGMEM unicode_map[] = {
@@ -121,9 +130,18 @@ const uint32_t PROGMEM unicode_map[] = {
   [SUN]   = 0x2600,
   [MOON]  = 0x1F314,
   [SKULL] = 0x1F480,
+  [ANGRY] = 0x1F92C,
   [THINK] = 0x1F914,
   [ROCK]  = 0x1F680,
   [TADA]  = 0x1F389,
   [FNGCR] = 0x1F91E,
-  [FIRE]  = 0x1F525
+  [FIRE]  = 0x1F525,
+  [TOP]   = 0x1F51D,
+  [CHECK] = 0x2705,
+  [RAIS]  = 0x1F64B,
+  [SHRG]  = 0x1F937,
+  [FPLM]  = 0x1F926,
+  [THAT]  = 0x1F3A9,
+  [PEACH] = 0x1F351,
+  [EGGPL] = 0x1F346
 };
